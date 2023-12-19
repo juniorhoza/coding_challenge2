@@ -55,4 +55,4 @@ The objective of this project is to deploy the solutions developed in Coding Cha
 > * Task 2 , 3 & 4: December 21th, 2023
 > * Task 5: December 22th, 2023
 > * Task 6 : December 23th, 2023
-> * Task 7 & 8: December 27th, 2023
+> * Task 7 & 8: December 30th, 2023
