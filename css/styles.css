@@ -18,6 +18,9 @@ a{
     color: white;
     text-decoration: none;
 }
+label{
+    margin-bottom: 20px;
+}
 
 .name{
     text-align: right;
@@ -63,3 +66,28 @@ width: 150px;
     width: 604px;
     height: 85px;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x:hidden ;
+        height: 150vh;
+    }
+    .name{
+        font-size: 14px;
+        width: 90vw;
+        text-align: right;
+    }
+    #input-values{
+        width: 354px;
+    height: 45px;
+
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .result-box{
+     
+        width: 344px;
+        height: 85px;
+    }
+  }
