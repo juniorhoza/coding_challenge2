@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Salary</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <p class="name">By Hoza Longfor Frank Junior</p>
-   <main>
-    <h1 class="problem-title">Single Salary problem</h1>
+    <main>
+        <h1 class="problem-title">Single Salary problem</h1>
+        <div class="explanation">
 
-    <div class="values">
+            <div class="explanation_approach">
 
-        <label for="input-values">Enter the Values:</label>
-        <input type="text" name="values" id="input-values" placeholder="Please seperate the values with a comma (,)">
+                <h2>Approach:</h2>
+                <p>
+                    The approach taken to solve this is to check each salary against all other salaries in the array and
+                    this is done by using nested loops .when it encounters a salary that does not have a duplicate ,it
+                    returns that as a single salary.
+                    <br>
+                    Test the solution to this problem by entering values in the text box below , please do not forget to
+                    SEPERATE THE VALUES WITH A COMMA
 
-        
-        <div class="buttons">
-            <button id="evaluate">Evaluate</button>
-            <a href="/html_pages/Problem2.html"><button id="answer">problem 2 </button></a>
+                    eg: values: 25000,25000,19000,19000,50,1,1
+                </p>
+
+            </div>
         </div>
-    </div>
+        <div class="values">
 
-    <div class="values result-box">
+            <label for="input-values">Enter the Values:</label>
+            <input type="text" name="values" id="input-values"
+                placeholder="Please seperate the values with a comma (,)">
 
-        <label for="Result">Result:</label>
-        <textarea name="result" id="Result" cols="30" rows="10"></textarea>
-        
-    </div>
-   </main>
 
-   <script src="./scripts/singleSalary.js"></script>
+            <div class="buttons">
+                <button id="evaluate">Evaluate</button>
+                <a href="/html_pages/Problem2.html"><button id="answer">problem 2 </button></a>
+            </div>
+        </div>
+
+        <div class="values result-box">
+
+            <label for="Result">Result:</label>
+            <textarea name="result" id="Result" cols="30" rows="10"></textarea>
+
+        </div>
+    </main>
+
+    <script src="./scripts/singleSalary.js"></script>
 </body>
+
 </html>

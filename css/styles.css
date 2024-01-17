@@ -1,96 +1,125 @@
-body{
-    height: 100vh;
-    background: linear-gradient(178deg, #2C896D 1.7%, rgba(1, 3, 15, 0.842) 104.21%); 
+body {
+    height: 150vh;
+    background: linear-gradient(178deg, #2C896D 1.7%, rgba(1, 3, 15, 0.842) 104.21%);
     background-size: contain;
     font-family: Inter;
     color: white;
-   
+
 
 }
-main{
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
-label{
+
+label {
     margin-bottom: 20px;
 }
 
-input{
+input {
     margin-bottom: 20px;
 }
-.name{
+
+.explanation {
+    width: 550px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.explanation_approach>p {
+    line-height: 2em;
+}
+
+.name {
     text-align: right;
 }
-.problem-title{
+
+.problem-title {
     font-size: 50px;
 }
-.values{
+
+.values {
     display: flex;
     flex-direction: column;
 }
-#input-values,#input-target{
+
+#input-values,
+#input-target {
     width: 604px;
-height: 45px;
-border-radius: 4px;
-background: #ffffff;
-border: none;
+    height: 45px;
+    border-radius: 4px;
+    background: #ffffff;
+    border: none;
 }
-#input-values::placeholder,#input-target::placeholder{
+
+#input-values::placeholder,
+#input-target::placeholder {
     position: relative;
     left: 20px;
 }
-.buttons{
+
+.buttons {
     margin-top: 50px;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
 }
-button{
+
+button {
     border-radius: 25px;
-background: #396292;
-color: white;
-padding: 15px;
-border: none;
-width: 150px;
+    background: #396292;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 150px;
 }
 
-.result-box{
+.result-box {
     border-radius: 4px;
-    margin-top:50px ;
+    margin-top: 20px;
     resize: none;
     width: 604px;
     height: 85px;
 }
 
 @media only screen and (max-width: 600px) {
-    body{
-        overflow-x:hidden ;
+    body {
+        overflow-x: hidden;
         height: 150vh;
     }
-    .name{
+
+    .name {
         font-size: 14px;
         width: 90vw;
         text-align: right;
     }
-    #input-values,#input-target{
+
+    #input-values,
+    #input-target {
         width: 354px;
-    height: 45px;
+        height: 45px;
 
     }
-    .buttons{
+
+    .buttons {
         flex-direction: column;
     }
-    .result-box{
-     
+
+    .result-box {
+
         width: 344px;
         height: 85px;
     }
-  }
+}

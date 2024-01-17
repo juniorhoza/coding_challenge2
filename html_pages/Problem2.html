@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First and Last Solution</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
     <p class="name">By Hoza Longfor Frank Junior</p>
-   <main>
-    <h1 class="problem-title">First and Last Solution problem</h1>
+    <main>
+        <h1 class="problem-title">First and Last Solution problem</h1>
+        <div class="explanation">
 
-    <div class="values">
+            <div class="explanation_approach">
 
-        <label for="input-values">Enter the Values:</label>
-        <input type="text" name="values" id="input-values" placeholder="Please seperate the values with a comma (,)">
-        <div class="target-div">
+                <h2>Approach:</h2>
+                <p>
+                    The function begins by checking if the target exits in the array. if found, it determines the
+                    starting position by using the index() method. if a subsequent occurence exits after the starting
+                    position, it updates the ending position accordingly
+                    <br>
+                    Test the solution to this problem by entering values in the text box below , please do not forget to
+                    SEPERATE THE VALUES WITH A COMMA
+                    <br>
+                    eg: values 1,2,2,3,3,3,4,5,5,5 <br>
+                    target : 2
+                </p>
 
-            
+            </div>
         </div>
-        <label for="input-target">Target:</label>
-        <input type="text" name="values" id="input-target" placeholder="Please enter the target here">
-        <div class="buttons">
-            <a href="../index.html"><button id="link">problem 1 </button></a>
-            <button id="evaluate">Evaluate</button>
+        <div class="values">
+
+            <label for="input-values">Enter the Values:</label>
+            <input type="text" name="values" id="input-values"
+                placeholder="Please seperate the values with a comma (,)">
+            <div class="target-div">
+
+
+            </div>
+            <label for="input-target">Target:</label>
+            <input type="text" name="values" id="input-target" placeholder="Please enter the target here">
+            <div class="buttons">
+                <a href="../index.html"><button id="link">problem 1 </button></a>
+                <button id="evaluate">Evaluate</button>
+            </div>
         </div>
-    </div>
 
-    <div class="values result-box">
+        <div class="values result-box">
 
-        <label for="Result">Result:</label>
-        <textarea name="result" id="Result" cols="30" rows="10"></textarea>
-        
-    </div>
-   </main>
-  
+            <label for="Result">Result:</label>
+            <textarea name="result" id="Result" cols="30" rows="10"></textarea>
 
-   <script src="../scripts/firstAndLastPos.js"></script>
+        </div>
+    </main>
+
+
+    <script src="../scripts/firstAndLastPos.js"></script>
 </body>
+
 </html>
